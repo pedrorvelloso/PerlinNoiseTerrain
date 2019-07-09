@@ -1,15 +1,24 @@
-Perlin Noise
-=============
-Requirements
----------------
-PyQT5\
-PyOpenGL\
-PyQTGraph
+# Perlin Noise
 
-Run
-----
+## Motivation
+
+{{ describe what you want to achieve with this repo here }}\
+{{ also describe any patterns you've used  }}
+
+## Usage
+
+Install all requirements (PyQT5, PyOpenGL, PyQTGraph) by running:
+
+```shell
+pip install -r requirements.txt
 ```
+
+You SHOULD have Python installed.
+
+### Run
+
+```shell
 $ python perlin_terrain.py
 ```
 
-![Alt text](perlin.png?raw=true "Perlin App")
+![](app_example.gif?raw=true "Perlin App")
